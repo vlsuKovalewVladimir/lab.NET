@@ -36,6 +36,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="lab1.cs" />
+    <Compile Include="lab11_2.cs" />
+    <Compile Include="lab11_1.cs" />
+    <Compile Include="lab12.cs" />
+    <Compile Include="lab13-14.cs" />
+    <Compile Include="lab15.cs" />
     <Compile Include="lab2.cs" />
     <Compile Include="lab4_1.cs" />
     <Compile Include="lab5_2.cs" />
@@ -45,6 +50,14 @@
     <Compile Include="lab6_1.cs" />
     <Compile Include="lab6_2.cs" />
     <Compile Include="lab7.cs" />
+    <Compile Include="lab8.cs" />
+    <Compile Include="lab8_2.cs" />
+    <Compile Include="lab8_4.cs" />
+    <Compile Include="lab8_3.cs" />
+    <Compile Include="lab8_1.cs" />
+    <Compile Include="lab10.cs" />
+    <Compile Include="lab9_2.cs" />
+    <Compile Include="lab9_1.cs" />
     <Compile Include="main.cs" />
     <Compile Include="lab3_2.cs" />
   </ItemGroup>
