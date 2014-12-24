@@ -3,6 +3,7 @@
 obj/*
 
 bin/Debug/*.config
-bin/Debug/*.config
+bin/Debug/*.pdb
+bin/Debug/*.manifest
 bin/Debug/lab.vshost.exe
 bib/Release/*

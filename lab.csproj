@@ -41,6 +41,7 @@
     <Compile Include="lab12.cs" />
     <Compile Include="lab13-14.cs" />
     <Compile Include="lab15.cs" />
+    <Compile Include="lab16.cs" />
     <Compile Include="lab2.cs" />
     <Compile Include="lab4_1.cs" />
     <Compile Include="lab5_2.cs" />
