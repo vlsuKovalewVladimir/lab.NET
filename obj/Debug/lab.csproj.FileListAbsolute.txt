@@ -1,6 +1,0 @@
-C:\Users\Владимир\Desktop\СЯП.net\lab\bin\Debug\lab.exe.config
-C:\Users\Владимир\Desktop\СЯП.net\lab\obj\Debug\lab.csprojResolveAssemblyReference.cache
-C:\Users\Владимир\Desktop\СЯП.net\lab\bin\Debug\lab.exe
-C:\Users\Владимир\Desktop\СЯП.net\lab\bin\Debug\lab.pdb
-C:\Users\Владимир\Desktop\СЯП.net\lab\obj\Debug\lab.exe
-C:\Users\Владимир\Desktop\СЯП.net\lab\obj\Debug\lab.pdb
