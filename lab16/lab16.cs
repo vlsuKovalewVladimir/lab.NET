@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab
+namespace lab.lab16
 {
     /// <summary>
     /// Замечания:
@@ -25,5 +26,46 @@ namespace lab
     /// </summary>
     class lab16
     {
+        public lab16()
+        {
+            List<Employeem> listEmployeem1 = new List<Employeem>();
+
+            StreamReader fileIn = new StreamReader("input.txt");
+            while (!fileIn.EndOfStream)
+            {
+                string s = fileIn.ReadLine();
+                string[] arr = s.Split('|');
+
+                Employeem e = new Employeem(arr[0], arr[1], arr[2], UInt32.Parse(arr[3]), Int32.Parse(arr[4]));
+                listEmployeem1.Add(e);
+            }
+            fileIn.Close();
+
+            foreach (Employeem e in listEmployeem1)
+            {
+                Console.WriteLine("--------------------------");
+                e.print();
+            }
+
+            
+            StreamWriter fileOut = new StreamWriter("output.txt", false);
+            List<Employeem> listEmployeem2 = new List<Employeem>();
+            Console.Write("\n\nВведите уровень зарплаты: ");
+            uint a = UInt32.Parse(Console.ReadLine());
+            foreach (Employeem e in listEmployeem1)
+                if (e.Salary <= a)
+                    listEmployeem2.Add(e);
+
+            listEmployeem2.Sort();
+            foreach (Employeem e in listEmployeem2)
+            {
+                fileOut.WriteLine(e.ToString() + "\n----------------------");
+                Console.WriteLine("--------------------------");
+                e.print();
+            }
+            Console.WriteLine("Создан output.txt");
+
+            fileOut.Close();
+        }
     }
 }

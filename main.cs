@@ -42,7 +42,7 @@ namespace lab
                         case 'a': lab13   lab13   = new lab13();   break;
 
                         case 's': lab15.lab15 lab15 = new lab15.lab15(); break;
-                        case 'd': lab16   lab16   = new lab16();   break;
+                        case 'd': lab16.lab16 lab16 = new lab16.lab16(); break;
                     }
                 }
                 catch(Exception e)

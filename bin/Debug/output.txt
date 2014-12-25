@@ -1,0 +1,12 @@
+lastName: Фамилия1
+yearOfEmployment: 2001
+post: Должность1
+salary: 10000
+experience: 10
+----------------------
+lastName: Фамилия5
+yearOfEmployment: 2003
+post: Должность5
+salary: 14000
+experience: 12
+----------------------

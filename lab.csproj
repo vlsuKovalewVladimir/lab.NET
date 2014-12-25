@@ -47,7 +47,8 @@
     <Compile Include="lab15\Post.cs" />
     <Compile Include="lab15\Student.cs" />
     <Compile Include="lab15\Teach.cs" />
-    <Compile Include="lab16.cs" />
+    <Compile Include="lab16\Employee.cs" />
+    <Compile Include="lab16\lab16.cs" />
     <Compile Include="lab2.cs" />
     <Compile Include="lab4_1.cs" />
     <Compile Include="lab5_2.cs" />

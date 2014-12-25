@@ -30,7 +30,6 @@ namespace lab.lab15
         {
             List<Persona> listPersona = new List<Persona>();
 
-
             StreamReader fileIn = new StreamReader("persona.txt");
             while (!fileIn.EndOfStream)
             {
