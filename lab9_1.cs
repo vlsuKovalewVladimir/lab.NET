@@ -14,8 +14,15 @@ namespace lab
         public lab9_1()
         {
             Console.WriteLine("Подсчитывает количество букв в строке");
-            StringBuilder s = new StringBuilder(Console.ReadLine());
-            
+            Console.WriteLine("Введите строку: ");
+            string input = Console.ReadLine();
+            int ind = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (char.IsLetter(input[i]))
+                    ind++;
+            }
+            Console.WriteLine("Количество букв равно {0}", ind);
         }
     }
 }

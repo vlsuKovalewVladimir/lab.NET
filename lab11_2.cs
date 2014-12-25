@@ -30,6 +30,7 @@ namespace lab
                     k = i;
                 }
             }
+            fileIn.Close();
             Console.WriteLine(k);
         }
     }

@@ -40,7 +40,13 @@
     <Compile Include="lab11_1.cs" />
     <Compile Include="lab12.cs" />
     <Compile Include="lab13-14.cs" />
-    <Compile Include="lab15.cs" />
+    <Compile Include="lab15\Enrollee.cs" />
+    <Compile Include="lab15\Faculty.cs" />
+    <Compile Include="lab15\lab15.cs" />
+    <Compile Include="lab15\Persona.cs" />
+    <Compile Include="lab15\Post.cs" />
+    <Compile Include="lab15\Student.cs" />
+    <Compile Include="lab15\Teach.cs" />
     <Compile Include="lab16.cs" />
     <Compile Include="lab2.cs" />
     <Compile Include="lab4_1.cs" />
